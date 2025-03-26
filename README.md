@@ -1,4 +1,5 @@
 Car Price Prediction using Machine Learning
+
 Project Overview
 This project aims to predict the price of a used car based on its features such as mileage, brand, year, fuel type, and more. Various machine learning models were implemented, and Linear Regression showed promising results.
 
@@ -6,19 +7,12 @@ Dataset
 The dataset used for this project is available on Kaggle - Vehicle Dataset from Cardekho. It contains features such as:
 
 Car Name
-
 Year
-
 Selling Price
-
 Present Price
-
 Kms Driven
-
 Fuel Type (Petrol, Diesel, CNG)
-
 Seller Type (Dealer, Individual)
-
 Transmission (Manual, Automatic)
 
 Owner
@@ -37,26 +31,18 @@ Edit
 │   └── actual_vs_predicted_train.png   # Visualization (training set)
 │   └── actual_vs_predicted_test.png    # Visualization (testing set)
 └── requirements.txt         # List of dependencies
+
 Libraries Used
 Python 3.x
-
 pandas
-
 numpy
-
 scikit-learn
-
 matplotlib
-
 seaborn
 
-Install the required libraries using the following command:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
 Model and Results
+
 We used Linear Regression to predict car prices. The model was trained on 90% of the dataset and tested on 10%. The evaluation metric used was R-squared error.
 
 Training R-squared: 0.879
@@ -68,30 +54,6 @@ Actual vs Predicted Prices (Training Data)
 
 Actual vs Predicted Prices (Testing Data)
 
-How to Run
-Clone this repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/car-price-prediction.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
-cd car-price-prediction
-Install the required dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Python script:
-
-bash
-Copy
-Edit
-python car_price_prediction.py
 Conclusion
 The Car Price Prediction project shows that machine learning can be effectively applied to predict used car prices based on historical data. Linear Regression performed well with an R-squared error of 0.836 on the test data.
